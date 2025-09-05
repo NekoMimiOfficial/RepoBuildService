@@ -1,0 +1,31 @@
+Package: libidssvfs
+Version: 1.0.1
+Architecture: amd64
+Maintainer: NekoMimiOfficial <nekomimi@tilde.team>
+Installed-Size: 208
+Depends: libnmpp-dev
+Filename: pool/main/libIDSSVfs_1.0.1_amd64.deb
+Size: 69090
+MD5sum: 8976778f0e0d68b91c79a76010a1d544
+SHA1: d1436ac7e20452fe16bd53f3c9a944df0bf1caa5
+SHA256: d6bff1b25cb9e8269ab97a8ce40e324eb27e1294f150b51da46cebc483ea4354
+Section: devel
+Priority: optional
+Homepage: http://nekomimi.tilde.team
+Description: C++ headers for the Initial D street stage vfs file extraction
+
+Package: libnmpp-dev
+Version: 1.0.7
+Architecture: amd64
+Maintainer: NekoMimiOfficial <nekomimi@tilde.team>
+Installed-Size: 40
+Filename: pool/main/libnmpp_1.0.7_amd64.deb
+Size: 52568
+MD5sum: d28e7cfae83b35ff25bfa2cc5027f055
+SHA1: 1f8b7fe3593eea91b4a44d5ef177828eb4af3a78
+SHA256: fae5597f9913b658fe7e8dd146fc6c9133237ed966a40d5459e6edd01fef9ffb
+Section: devel
+Priority: optional
+Homepage: http://nekomimi.tilde.team
+Description: A C++ library that exposes a lot of helpful features to aid development
+

@@ -1,0 +1,24 @@
+Origin: NekoLabs LLC
+Label: Neko's repository for publishing Linux apps
+Suite: stable
+Codename: stable
+Components: main
+Architectures: amd64
+
+Date: Fri, 05 Sep 2025 11:37:07 +0000
+MD5Sum:
+ 7db26c19bb0b03560d8e9a6b6ca44f87               38 Release
+ 18cd0807dfea54b6396e2767a70ba995             1015 main/binary-amd64/Packages
+ 0c6099fb797293490d51ef177307c915              568 main/binary-amd64/Packages.gz
+SHA1:
+ 9a2f7960cf790c0cb52a27c2046638ae7c797415               38 Release
+ 696f8ec7d0f438511d80b5fa2d9bc40c47eba797             1015 main/binary-amd64/Packages
+ 7e681d4b70fd52113b20c1748ea918513eedaa2f              568 main/binary-amd64/Packages.gz
+SHA256:
+ 6a4b38b6acee2d957a4cbf10055ef6c7c92cab54cd748dea67d89118803c51ad               38 Release
+ 8b06f1dadf7ebb1ef8dbe11a209877a53e83701378be58b51989ec4d00e4fa5d             1015 main/binary-amd64/Packages
+ 91d2579111151463b55c177654e525729b919bab8445fad5e087c19c8960f150              568 main/binary-amd64/Packages.gz
+SHA512:
+ 1e4c8748f5fc4505de01e6bb9709130d3ddcea7760014e080b9f21a7e02fd32924851c355f9c9973fd654a431069b131b404acc01b42d6a8e422f0d9c0abc408               38 Release
+ f57af7884e4adfc2c2aadb5fbe12e41696a065cef06c5f1e5aaf4f3d4214cceb255d1c719b6e73a812c842cc990bd4b6321c9e1e74314c124d69211fd9be3d50             1015 main/binary-amd64/Packages
+ 614c42b124b4d45a1fd5297cf124d863ed67406a47c10c469645d2ab5422d54b580e8521c2d1ccd853bb416a40dc264e87beecd9be8b87c0236a57038838a6b6              568 main/binary-amd64/Packages.gz
