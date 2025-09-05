@@ -6,8 +6,6 @@ Installed-Size: 30
 Depends: libnmpp-dev, libidssvfs
 Filename: pool/main/idss-tools_2.0.0_amd64.deb
 Size: 29676
-MD5sum: 538913707c282e1570c41c6c17b1dc1a
-SHA1: 68dd2804c5f23c9a807750038938b6cc84a0fb56
 SHA256: cdae1b0a957dc88eb20e57dfac8bd861e920e91aabf6cc3fa3b2c881de465864
 Section: utils
 Priority: optional
@@ -22,8 +20,6 @@ Installed-Size: 208
 Depends: libnmpp-dev
 Filename: pool/main/libidssvfs_1.0.2_amd64.deb
 Size: 34184
-MD5sum: 5f99e1c3cd01ce59506b9d5f0a388bf4
-SHA1: 56a313dbb4d801142ca4574c0f2ec4d7b2099bbe
 SHA256: 2995f156cf1dd78da73d186da297cfd9820434165c1c7cc067a08102beb9f13f
 Section: devel
 Priority: optional
@@ -37,8 +33,6 @@ Maintainer: NekoMimiOfficial <nekomimi@tilde.team>
 Installed-Size: 40
 Filename: pool/main/libnmpp_1.0.7_amd64.deb
 Size: 39654
-MD5sum: 7b76697e1a26c8c1af0f45d859088e48
-SHA1: 5796e962d2b8c4e9e9567549018fd79533a43be3
 SHA256: 7b655df4cc1ced6570c61b092bec332bae791312f36c1ce2a5ec7132383ceab7
 Section: devel
 Priority: optional
