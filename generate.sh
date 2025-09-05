@@ -31,7 +31,7 @@ apt-ftparchive release dists/stable/ > dists/stable/Release
 cat dists/stable/Release >> dists/stable/Release.tmp
 mv dists/stable/Release.tmp dists/stable/Release
 echo "[ 4/5 ] Signing with GPG..."
-gpg --yes --default-key $GPG_KEY -abs -o dists/stable/Release.gpg dists/stable/Release
+gpg --yes --default-key $GPG_KEY --clearsign -o dists/stable/InRelease dists/stable/Release
 echo "[ 5/5 ] Zipping into a file..."
 zip -r repo.zip ./dists/ ./pool/ ./nekomimiofficial.gpg.key
 echo "Done."
