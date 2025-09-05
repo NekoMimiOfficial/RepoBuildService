@@ -1,5 +1,14 @@
 #!/bin/bash
 
+if [ "$#" -ne 1 ]; then
+    echo "Please provide one argument only being the GPG key ID"
+    echo "Usage: $0 <GPG_KEY_ID>"
+    
+    exit 1
+fi
+
+GPG_KEY=$1
+
 echo "Using the following GPG key to create and sign the repo:"
 echo $GPG_KEY
 echo ""
@@ -22,7 +31,7 @@ apt-ftparchive release dists/stable/ > dists/stable/Release
 cat dists/stable/Release >> dists/stable/Release.tmp
 mv dists/stable/Release.tmp dists/stable/Release
 echo "[ 4/5 ] Signing with GPG..."
-gpg --default-key $GPG_KEY -abs -o dists/stable/Release.gpg dists/stable/Release
+gpg --yes --default-key $GPG_KEY -abs -o dists/stable/Release.gpg dists/stable/Release
 echo "[ 5/5 ] Zipping into a file..."
 zip -r repo.zip ./dists/ ./pool/ ./nekomimiofficial.gpg.key
 echo "Done."
